@@ -1,0 +1,8 @@
+# Normalize text files to LF (this is a Linux port).
+* text=auto eol=lf
+# original/ holds the upstream DOS sources verbatim (keep their CRLF).
+original/** -text
+*.png binary
+*.bin binary
+*.jpg binary
+*.gif binary
